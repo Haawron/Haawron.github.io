@@ -1,30 +1,30 @@
 # Site settings
-title: "Carte Noire"
-email: jacob@jacobtomlinson.co.uk
-description: "A dark blog theme for Jekyll."
+title: "Haawron Deep Learning"
+email: gunsbrother@naver.com
+description: "A Deep Learning Lab for HAAWRON"
 baseurl: ""
-url: "http://carte-noire.jacobtomlinson.co.uk/"
-title_description: "A dark blog theme for Jekyll focusing on a clear reading experience. Large text and a narrow body makes carte noire a gorgeous read. With excellent code snippet support and integrated tools such as AddThis and Disqus giving your Jekyll blog all the functionality your users expect."
-title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
+url: "https://haawron.github.io/"
+title_description: "딥러닝 공부 기록 <br>쉽게 배우는 딥러닝"
+title_image: "https://secure.gravatar.com/avatar/2df384ea957255789eadc4e08bb98bfe?s=500&d=mm"
 google_analytics: "UA-20365477-4"
-disqus_account: cartenoire
+disqus_account: haawrongithub
 github_repository: https://github.com/jacobtomlinson/carte-noire
-addthis_id: ra-513c6fa83da6ec67
+addthis_id: ra-5a7befd83d079fee
 post_limit: 5
 
 # Social usernames/URLs
-twitter_username: _jacobtomlinson
-github_username:  jacobtomlinson
-instagram_username: 
-reddit_username: 
-linkedin_link: http://carte-noire.jacobtomlinson.co.uk/
-google_plus_link: http://carte-noire.jacobtomlinson.co.uk/
-stackoverflow_link: http://carte-noire.jacobtomlinson.co.uk/
+twitter_username: Haawron
+github_username:  Haawron
+instagram_username: haawron
+reddit_username:
+linkedin_link: https://www.linkedin.com/in/hyeogeon-lee-460b92157/
+google_plus_link: https://plus.google.com/116348548565230043793
+stackoverflow_link: https://stackoverflow.com/users/9233630/%EC%9D%B4%ED%9A%A8%EA%B1%B4
 xing_link:
-facebook_link:
+facebook_link: https://www.facebook.com/hyogun.lee.3
 
 # Footer
-footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+footer_left: # "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
 footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings

@@ -1,5 +1,5 @@
-assets/fonts/* linguist-vendored
-assets/js/plugins/* linguist-vendored
-assets/js/vendor/* linguist-vendored
-assets/js/scripts.min.js linguist-vendored
+fonts/* linguist-vendored
+js/plugins/* linguist-vendored
+js/vendor/* linguist-vendored
+js/main.js linguist-vendored
 _sass/vendor/* linguist-vendored

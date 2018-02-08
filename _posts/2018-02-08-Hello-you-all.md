@@ -4,7 +4,7 @@ title:      Hello You All!!!
 date:       2018-02-08 14:21:19
 author:     Haawron
 summary:    You can learn deep learning with beautiful thumbnails!
-categories: jekyll
+categories: Messages
 thumbnail:  
 tags:
  - Haawron

@@ -84,6 +84,15 @@ layout: default
           {% endif %}
         {% endif %}
 
+        {% if page.tags and page.tags.size > 0 %}
+        <div class="tags">
+          <small>
+          <i class="fa fa-tags"></i>
+            {{ page.tags | join: ', ' }}
+          </small>
+        </div>
+        {% endif %}
+
 
         {% if site.addthis_id %}
         <div class="share">

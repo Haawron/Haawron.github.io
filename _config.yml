@@ -1,5 +1,5 @@
 # Site settings
-title: "Haawron Deep Learning"
+title: "하우론 딥러닝"
 email: gunsbrother@naver.com
 description: "A Deep Learning Lab for HAAWRON"
 baseurl: ""
@@ -13,12 +13,12 @@ addthis_id: ra-5a7befd83d079fee
 post_limit: 5
 
 # Social usernames/URLs
-twitter_username: Haawron
+twitter_username: # Haawron
 github_username:  Haawron
 instagram_username: haawron
 reddit_username:
 linkedin_link: https://www.linkedin.com/in/hyeogeon-lee-460b92157/
-google_plus_link: https://plus.google.com/116348548565230043793
+google_plus_link: # https://plus.google.com/116348548565230043793
 stackoverflow_link: https://stackoverflow.com/users/9233630/%EC%9D%B4%ED%9A%A8%EA%B1%B4
 xing_link:
 facebook_link: https://www.facebook.com/hyogun.lee.3

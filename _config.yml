@@ -4,7 +4,7 @@ email: gunsbrother@naver.com
 description: "A Deep Learning Lab for HAAWRON"
 baseurl: ""
 url: "https://haawron.github.io/"
-title_description: "딥러닝 공부 기록 <br>쉽게 배우는 딥러닝"
+title_description: "쉽게 배우는 딥러닝"
 title_image: "https://secure.gravatar.com/avatar/2df384ea957255789eadc4e08bb98bfe?s=500&d=mm"
 google_analytics: "UA-20365477-4"
 disqus_account: haawrongithub
@@ -17,7 +17,7 @@ twitter_username: # Haawron
 github_username:  Haawron
 instagram_username: haawron
 reddit_username:
-linkedin_link: https://www.linkedin.com/in/hyeogeon-lee-460b92157/
+linkedin_link: # https://www.linkedin.com/in/hyeogeon-lee-460b92157/
 google_plus_link: # https://plus.google.com/116348548565230043793
 stackoverflow_link: https://stackoverflow.com/users/9233630/%EC%9D%B4%ED%9A%A8%EA%B1%B4
 xing_link:

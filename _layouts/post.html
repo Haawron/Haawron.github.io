@@ -94,20 +94,10 @@ comments: true
         </div>
         {% endif %}
 
-
         {% if site.addthis_id %}
         <div class="share">
           <!-- Go to www.addthis.com/dashboard to customize your tools -->
-          <div class="addthis_sharing_toolbox"></div>
-        </div>
-        {% endif %}
-
-        {% if page.tags and page.tags.size > 0 %}
-        <div class="tags">
-          <small>
-          <i class="fa fa-tags"></i>
-            {{ page.tags | join: ', ' }}
-          </small>
+          <div class="addthis_inline_share_toolbox"></div>
         </div>
         {% endif %}
 
@@ -124,9 +114,11 @@ comments: true
         Let me know what you think of this article on twitter <a href="http://www.twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>!
       </div>
       {% elsif site.disqus_account %}
-      <div class="content-panel feedback">
+      <div class="content-panel feedback"><!--
         I <i class="fa fa-heart"></i> feedback.<br />
-        Let me know what you think of this article in the comment section below!
+        Let me know what you think of this article in the comment section below!-->
+        1 댓글 = 1 민트초코 for 효건<br>
+        1 공유 = 7치즈 앤 그릴드 비프 피자
       </div>
       {% endif %}
 

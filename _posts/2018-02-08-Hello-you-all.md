@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Hello You All!!! The Repo of Deep Learning Tutorials Which Is Very Attractive!!
+title:      Hello You All!!!
 date:       2018-02-08 14:21:19
 author:     Haawron
 summary:    You can learn deep learning with beautiful thumbnails!

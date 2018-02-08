@@ -8,18 +8,18 @@ make-smaller-titles: true
   <div class="row index all-posts">
 
     <h1 class="header author-header">{{ site.author_name }}</h1>
-    <h2 class="header" itemprop="headline">All posts</h2>
-    <h2 class="header categories" itemprop="headline"><small>grouped by
+    <h2 class="header" itemprop="headline">모든 게시물</h2>
+    <h2 class="header categories" itemprop="headline"><small>
 
       <div class="dropdown btn-group">
-        <button class="btn btn-categories dropdown-toggle btn-xs" type="button" data-toggle="dropdown">Categories
+        <button class="btn btn-categories dropdown-toggle btn-xs" type="button" data-toggle="dropdown">카테고리
           <span class="caret"></span>
         </button>
         <ul class="dropdown-menu">
-          <li><a href="{{ site.baseurl }}/posts/">Years</a></li>
+          <li><a href="{{ site.baseurl }}/posts/">연도</a></li>
         </ul>
       </div>
-
+      별로 보기
     </small></h2>
       {% for category in site.categories %}
       <div class="col-md-12 content-panel articles">

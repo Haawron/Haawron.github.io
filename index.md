@@ -1,7 +1,7 @@
 ---
 title: About Alembic
 feature_text: |
-  <h2 style="color:white;font-weight:bold">하우론 딥러닝</h2>
+  <h2 style="color:white;font-weight:bold;font-style:normal">Haawron Deep Learning</h2>
   A Jekyll boilerplate theme designed to be a starting point for any Jekyll website
 feature_image: "https://unsplash.it/1300/400?image=971"
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."

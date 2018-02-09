@@ -1,11 +1,15 @@
 ---
 title: About Alembic
 feature_text: |
+  <h2 style="color:white">Alembic</span>
   ## Alembic
   A Jekyll boilerplate theme designed to be a starting point for any Jekyll website
 feature_image: "https://unsplash.it/1300/400?image=971"
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
+
+한글 실험~~~ 하이 맨~~~<br>
+마크다운에는 주석이 읍다.<br><br>
 
 Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it.
 

@@ -4,7 +4,7 @@ feature_text: |
   <h1 style="color:white;font-weight:bold;font-style:normal;font-size:66px">
   Haawron Deep Learning
   </h1>
-feature_image: "https://i.imgur.com/If5WkzN.jpg"
+feature_image: "https://i.imgur.com/dYIabL7.jpg"
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 
@@ -12,7 +12,7 @@ excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projec
 마크다운에는 주석이 읍다.<br><br>
 실험중~~<br>
 
-로보토 더 크게<br>
+이미지 바꿈<br>
 
 Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it.
 

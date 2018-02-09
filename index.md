@@ -1,7 +1,7 @@
 ---
 title: About Alembic
 feature_text: |
-  <h2 style="color:white">Alembic</span>
+  <h2 style="color:white">Alembic</h2>
   ## Alembic
   A Jekyll boilerplate theme designed to be a starting point for any Jekyll website
 feature_image: "https://unsplash.it/1300/400?image=971"

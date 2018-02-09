@@ -10,10 +10,11 @@ html {
 }
 
 // Site-wide base styles.
+/*
 @font-face {
   font-family: 'OldSansBlack';
   src: url(assets/fonts/OldSansBlack.ttf) format('truetype');
-}
+}*/
 
 body {
   @include fontsize(zeta, all);

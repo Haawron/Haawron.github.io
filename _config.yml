@@ -72,7 +72,7 @@ defaults:
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
-lang: en-GB # Set the site language
+lang: ko-KR  #en-GB # Set the site language  이상 생기면 롤백 ㄱㄱ
 title: "Alembic" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
@@ -86,11 +86,11 @@ avatarurl: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c" # 
 # 8. Site navigation
 navigation_header:
   Home: /
-  Elements: /elements/
+  about: /about/
   Blog: /blog/
   Categories: /categories/
-  Search: /search/
-  Fork Alembic: https://github.com/daviddarnes/alembic
+#  Search: /search/  # 이건 나중에 페이지 커지면 달자
+#  Fork Alembic: https://github.com/daviddarnes/alembic
 
 navigation_footer:
   Created by David Darnes: https://darn.es

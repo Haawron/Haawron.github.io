@@ -2,15 +2,15 @@
 $backgroundColour: #ffffff;
 $codeBackgroundColour: #f4f4f4;
 $featureBackgroundColour: #eeeeee;
-$accentColour: #05bf85;
+$accentColour: #05bf85;  // 옆의 about site위에 마우스 올라갔을 때 아이콘?
 
 // Text colours
-$headingColour: #333333;
-$bodyColour: #555555;
-$linkColour: #05bf85;
-$hoverColour: #008000;
-$focusColour: #fa407a;
-$captionColour: #aaaaaa;
+$headingColour: #333333;  // 본문의 헤더랑, 타이틀 색깔
+$bodyColour: #555555;  // 본문 색깔 = about 페이지 그림 위의 색깔
+$linkColour: #05bf85;  // 링크 색깔
+$hoverColour: #008000;  // 링크 위에 마우스 올라갔을 때의 색
+$focusColour: #fa407a;  // 링크 같은 거 클릭할 때 박스쳐지는 색깔
+$captionColour: #aaaaaa;  // 옆의 about site 마우스 안 올라갔을 때 색깔인듯
 $white: #ffffff;
 
 // Typography

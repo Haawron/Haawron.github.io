@@ -2,7 +2,7 @@
 title: About
 feature_text: |
   A demo of Markdown and HTML includes
-feature_image: "https://i.imgur.com/xWyVPdj.png"
+feature_image: "https://i.imgur.com/6S1Crp9.png"
 excerpt: "A demo of Markdown and HTML includes"
 aside: true
 ---

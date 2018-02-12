@@ -83,7 +83,7 @@ baseurl: ""
 repo: "https://github.com/Haawron/Haawron.github.io"
 email: "gunsbrother@naver.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
-avatarurl: "https://ko.gravatar.com/userimage/134753179/32d84ecccd5e267d2c6af8fb4c4d68c5.jpg" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
+avatarurl: "https://i.imgur.com/B2Sq1xF.png" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 
 # 8. Site navigation
 navigation_header:

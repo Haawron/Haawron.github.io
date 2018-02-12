@@ -52,16 +52,18 @@ sass:
   style: compressed # Style compression
 permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
-timezone: Europe/London # Timezone for blog posts and alike
+timezone: Asia/Seoul # Timezone for blog posts and alike
 
-# 5. Collections
+# 5. Collections, Blog 대문
 collections:
   posts:
     title: Posts # Needed for Siteleaf
     output: true
     description: "My thoughts and ideas" # The post list page content
     feature_text: |
-      Welcome to the blog
+      <h1 style="color:white;font-weight:bold;font-style:normal;font-size:60px">
+      Blog
+      </h1>
     feature_image: "https://i.imgur.com/p5uVBPx.png"
 
 # 6. Jekyll collections settings
@@ -76,10 +78,10 @@ lang: ko-KR  #en-GB # Set the site language  이상 생기면 롤백 ㄱㄱ
 title: "하우론 딥러닝" # Site name or title, also used in jekyll-seo-tag, 맨 위의 탭에 나올 이름
 logo: "/assets/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
-url: "https://alembic.darn.es" # Site url, also used in jekyll-seo-tag
+url: "https://haawron.github.io/" # Site url, also used in jekyll-seo-tag
 baseurl: ""
-repo: "https://github.com/daviddarnes/alembic"
-email: "me@daviddarnes.com"
+repo: "https://github.com/Haawron/Haawron.github.io"
+email: "gunsbrother@naver.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 avatarurl: "https://ko.gravatar.com/userimage/134753179/32d84ecccd5e267d2c6af8fb4c4d68c5.jpg" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 

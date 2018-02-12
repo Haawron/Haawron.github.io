@@ -1,7 +1,9 @@
 ---
 title: About
 feature_text: |
-  A demo of Markdown and HTML includes
+  <h1 style="color:white;font-weight:bold;font-style:normal;font-size:60px">
+  About
+  </h1>
 feature_image: "https://i.imgur.com/6S1Crp9.png"
 excerpt: "A demo of Markdown and HTML includes"
 aside: true

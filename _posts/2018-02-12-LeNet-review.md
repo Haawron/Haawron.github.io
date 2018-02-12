@@ -1,14 +1,14 @@
 ---
-title: LeNet Review
+title: [DeepLearning] 01. LeNet
 category: DeepLearning
 excerpt: |
-  LeNet Review
+  [DeepLearning] 01. LeNet
 feature_text: |
-  ## 01. LeNet Review
+  ## 01. LeNet
 feature_image: "https://unsplash.it/1200/400?image=1048"
 ---
 
-# LeNet - Yann LeCun (1990, 1998)
+# LeNet - Yann LeCun
 Yann LeCun은 CNN을 처음 개발했으며, 전 세계 딥러닝 4대 천왕 중 한 명이다.<br>
 LeNet을 시작으로 지금까지 딥러닝에 역사적인 기여를 했다.<br>
 현재는 페이스북에서 AI 기반 로봇을 연구 중이라고 한다.(2018.1)<br>
@@ -51,4 +51,4 @@ Convolution이 이미지 끄트머리에서도 유효하게 되면서 좀 더 de
 - parameter는 6만 개로 거의 20배가 되었지만 성능은 훨씬 더 좋다. (FCL 하나가 추가될 때마다 기하급수적으로 늘어난다.)
 - 단계별 feature map에서 shift invariance를 확인할 수 있다.
 
-{% include figure.html image="http://yann.lecun.com/exdb/lenet/gifs/asamples.gif" caption="Image with caption" %}
+{% include figure.html image="http://yann.lecun.com/exdb/lenet/gifs/asamples.gif" caption="Image with caption" position="center" %}

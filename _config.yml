@@ -32,20 +32,20 @@ plugins:
 - jemoji
 
 # 3. Gem settings
-paginate: 2 # jekyll-paginate > items per page
+paginate: 4 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
 jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
 twitter:
-  username: DavidDarnes # jekyll-seo-tag > Owners twitter username
-author: DavidDarnes # jekyll-seo-tag > default author
+  username: Haawron # jekyll-seo-tag > Owners twitter username
+author: Hyeogeon Lee # jekyll-seo-tag > default author
 social: # jekyll-seo-tag > social overrides
-  name: David Darnes # jekyll-seo-tag > real name
+  name: Hyeogeon Lee # jekyll-seo-tag > real name
   links:  # jekyll-seo-tag > social aliases (sameAs)
-    - https://twitter.com/DavidDarnes
-    - https://www.facebook.com/daviddarnes
-    - https://www.linkedin.com/in/daviddarnes
-    - https://plus.google.com/+DavidDarnes
-    - https://github.com/daviddarnes
+    - https://twitter.com/Haawron
+    - https://www.facebook.com/hyogun.lee.3
+    #- https://www.linkedin.com/in/daviddarnes
+    - https://plus.google.com/116348548565230043793
+    - https://github.com/Haawron
 
 # 4. Jekyll settings
 sass:
@@ -59,7 +59,7 @@ collections:
   posts:
     title: Posts # Needed for Siteleaf
     output: true
-    description: "My thoughts and ideas" # The post list page content
+    description: "The repository of my studies" # The post list page content
     feature_text: |
       <h1 style="color:white;font-weight:bold;font-style:normal;font-size:60px">
       Blog
@@ -76,7 +76,7 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: ko-KR  #en-GB # Set the site language  이상 생기면 롤백 ㄱㄱ
 title: "하우론 딥러닝" # Site name or title, also used in jekyll-seo-tag, 맨 위의 탭에 나올 이름
-logo: "/assets/logo.svg" # Site logo, also used in jekyll-seo-tag
+logo: "/assets/wing_logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "The personal deep learning lab by Haawron" # Site description and default description, also used in jekyll-seo-tag
 url: "https://haawron.github.io/" # Site url, also used in jekyll-seo-tag
 baseurl: ""
@@ -98,16 +98,17 @@ navigation_footer:
   Created by David Darnes: https://darn.es
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
-  Twitter: https://twitter.com/DavidDarnes
+  Facebook: https://www.facebook.com/hyogun.lee.3
+  Twitter: https://twitter.com/Haawron
   LinkedIn: https://www.linkedin.com/in/daviddarnes
-  Google+: https://plus.google.com/+DavidDarnes
-  GitHub: https://github.com/daviddarnes
-  link: https://darn.es
+  Google+: https://plus.google.com/116348548565230043793
+  GitHub: https://github.com/Haawron
+  link: https://github.com/Haawron
   RSS: /feed.xml
 
 sharing_links: # Appear at the bottom of single blog posts, uncomment and comment out as desired. Colours set the button colour
   Twitter: "#1DA1F2"
-  facebook: "#3B5998"
+  Facebook: "#3B5998"
   Google+: "#DC4E41"
   # Pinterest: "#BD081C"
   # LinkedIn: "#0077B5"

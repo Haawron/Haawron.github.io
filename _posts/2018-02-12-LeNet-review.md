@@ -8,8 +8,8 @@ feature_text: |
 feature_image: "https://unsplash.it/1200/400?image=1048"
 ---
 
-# Yann LeCun
-Yann LeCun은 CNN을 처음 개발했으며, 전 세계 딥러닝 4대 천왕 중 한 명이다.<br>
+# Yann Lecun
+Yann Lecun은 CNN을 처음 개발했으며, 전 세계 딥러닝 4대 천왕 중 한 명이다.<br>
 LeNet을 시작으로 지금까지 딥러닝에 역사적인 기여를 했다.<br>
 현재는 페이스북에서 AI 기반 로봇을 연구 중이라고 한다.(2018.1)<br>
 
@@ -22,7 +22,7 @@ LeNet은 LeNet - 1부터 LeNet - 5까지 5종류가 있지만 가장 유명한 1
 기존에는 Fully Connected Network(FCN)만을 사용하고 있었다.
 하지만 FCN은 개체가 이동하거나 회전하는 등 아주 살짝만 변형이 되어도 완전히 다른 이미지로 인식되어 분명한 한계가 있었다.
 2D Convolution을 활용하여 국소적인 특징을 추출해내는 것으로 이를 해결할 수 있다.
-그렇게 해서 2D convolution과 pooling(논문에서는 squashing function)을 적절히 조합해 최초의 CNN인 LeNet-1이 탄생했다.<br>
+그렇게 해서 2D Convolution과 pooling(논문에서는 squashing function)을 적절히 조합해 최초의 CNN인 LeNet-1이 탄생했다.<br>
 
 ### 특징
 - 위쪽으로 갈수록 더 global한 feature를 학습한다. (어떻게 feature가 더 작아지는데 global한 내용을 학습하는지는 뒤의 ZFNet에서 다룸)

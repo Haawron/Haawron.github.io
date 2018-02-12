@@ -39,7 +39,8 @@ LeNet은 LeNet - 1부터 LeNet - 5까지 5종류가 있지만 가장 유명한 1
 ## LeNet - 5 (1998)
 {% include figure.html image="https://i.imgur.com/yix0Bte.png" position="center" %}<br>
 {% include figure.html image="https://i.imgur.com/tR97gXE.jpg" position="center" %}<br>
-구조
+
+### 구조
 - input이미지를 위/아래/양옆 2px씩 빈 공간을 추가하여 크기를 32x32로 늘렸다.
 Convolution이 이미지 끄트머리에서도 유효하게 되면서 좀 더 detail한 부분을 표현할 수 있다.
 이 개념은 후에 padding으로 발전한다.

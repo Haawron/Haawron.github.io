@@ -51,4 +51,4 @@ Convolution이 이미지 끄트머리에서도 유효하게 되면서 좀 더 de
 - parameter는 6만 개로 거의 20배가 되었지만 성능은 훨씬 더 좋다. (FCL 하나가 추가될 때마다 기하급수적으로 늘어난다.)
 - 단계별 feature map에서 shift invariance를 확인할 수 있다.
 
-{% include figure.html image="http://yann.lecun.com/exdb/lenet/gifs/asamples.gif" caption="Image with caption" position="center" %}
+{% include figure.html image="http://yann.lecun.com/exdb/lenet/gifs/asamples.gif" caption="LeNet-5" position="center" %}

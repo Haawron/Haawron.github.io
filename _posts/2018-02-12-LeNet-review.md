@@ -1,24 +1,24 @@
 ---
 title: 01. LeNet
-category: DeepLearning
+category: Deep Learning
 excerpt: |
-  [DeepLearning] 01. LeNet
+  [Deep Learning] 01. LeNet
 feature_text: |
   ## 01. LeNet
 feature_image: "https://unsplash.it/1200/400?image=1048"
 ---
 
-# LeNet - Yann LeCun
+# Yann LeCun
 Yann LeCun은 CNN을 처음 개발했으며, 전 세계 딥러닝 4대 천왕 중 한 명이다.<br>
 LeNet을 시작으로 지금까지 딥러닝에 역사적인 기여를 했다.<br>
 현재는 페이스북에서 AI 기반 로봇을 연구 중이라고 한다.(2018.1)<br>
 
-LeNet은 LeNet - 1부터 LeNet - 5까지 5종류가 있지만 가장 유명한 1과 5에 대해 알아보자.
+LeNet은 LeNet - 1부터 LeNet - 5까지 5종류가 있지만 가장 유명한 1과 5에 대해 알아보자.<br>
 
 ## LeNet - 1 (1990)
-[이미지]<br>
+{% include figure.html image="https://i.imgur.com/YpnFQAE.png" position="center" %}<br>
 이미지를 구글에서 가져왔는데 마지막 Layer는 Convolution이 아니라 Fully Connected이다.<br>
-[이미지]<br>
+{% include figure.html image="https://i.imgur.com/AqFyYyO.jpg" position="center" %}<br>
 기존에는 Fully Connected Network(FCN)만을 사용하고 있었다.
 하지만 FCN은 개체가 이동하거나 회전하는 등 아주 살짝만 변형이 되어도 완전히 다른 이미지로 인식되어 분명한 한계가 있었다.
 2D Convolution을 활용하여 국소적인 특징을 추출해내는 것으로 이를 해결할 수 있다.
@@ -37,15 +37,15 @@ LeNet은 LeNet - 1부터 LeNet - 5까지 5종류가 있지만 가장 유명한 1
 
 
 ## LeNet - 5 (1998)
-[이미지1]<br>
-[이미지2]<br>
+{% include figure.html image="https://i.imgur.com/yix0Bte.png" position="center" %}<br>
+{% include figure.html image="https://i.imgur.com/tR97gXE.jpg" position="center" %}<br>
 구조
 - input이미지를 위/아래/양옆 2px씩 빈 공간을 추가하여 크기를 32x32로 늘렸다.
 Convolution이 이미지 끄트머리에서도 유효하게 되면서 좀 더 detail한 부분을 표현할 수 있다.
 이 개념은 후에 padding으로 발전한다.
 - (\*)C2(첫 번째 그림에서 두 번째 Convolution) 할 때의 각 output feature map은 미리 정한 3개의 input feature map으로만 진행했다. 순서쌍은 다음 표와 같다.<br>
 
-[표]<br>
+{% include figure.html image="https://i.imgur.com/GoChfx4.png" position="center" %}<br>
 
 ### 특징
 - parameter는 6만 개로 거의 20배가 되었지만 성능은 훨씬 더 좋다. (FCL 하나가 추가될 때마다 기하급수적으로 늘어난다.)

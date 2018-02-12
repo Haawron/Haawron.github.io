@@ -7,6 +7,7 @@
 {% endif %}
 
 {% if feature_text or feature_image %}
+  <!--_theme.scss에서 .feature 가보면 background에 parallax 거는 옵션 해놨음-->
   <div class="feature"{% if feature_image %} style="background-image: url({{ feature_image }})"{% endif %}>
       <div class="container  typeset">
         {{ feature_text | markdownify }}

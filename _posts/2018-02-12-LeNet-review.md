@@ -1,5 +1,5 @@
 ---
-title: [DeepLearning] 01. LeNet
+title: 01. LeNet
 category: DeepLearning
 excerpt: |
   [DeepLearning] 01. LeNet

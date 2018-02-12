@@ -1,1 +1,2 @@
+<!--include는 이 버튼 생성하는 곳에서부터 받은 인자임-->
 <a class="button" href="{{ include.link | default: "#" }}"{% if include.color %} style="background: {{ include.color }}"{% endif %}>{{ include.text | default: "Button" }}{% if include.icon %}&nbsp; {% include icon.html id=include.icon %}{% endif %}</a>

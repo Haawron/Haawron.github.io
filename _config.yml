@@ -70,7 +70,7 @@ collections:
 defaults:
   -
     values:
-      image: "/assets/default-social-image.png" # Default image for sharing // 카톡이나 이런 곳 공유할 때 나오는 사진
+      image: "/assets/social_image.png" # Default image for sharing // 카톡이나 이런 곳 공유할 때 나오는 사진
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right

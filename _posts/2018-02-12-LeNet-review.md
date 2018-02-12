@@ -1,10 +1,10 @@
 ---
-title: [딥러닝] 01. LeNet 리뷰
-category: 딥러닝
+title: 01. LeNet Review
+category: DeepLearning
 excerpt: |
-  LeNet 리뷰
+  LeNet Review
 feature_text: |
-  ## [딥러닝] 01. LeNet 리뷰
+  ## 01. LeNet Review
 feature_image: "https://unsplash.it/1200/400?image=1048"
 ---
 

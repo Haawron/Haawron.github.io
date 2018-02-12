@@ -4,7 +4,7 @@ feature_text: |
   <h1 style="color:white;font-weight:bold;font-style:normal;font-size:66px">
   Haawron Deep Learning
   </h1>
-feature_image: "https://i.imgur.com/dYIabL7.jpg"
+feature_image: "https://i.imgur.com/fHSCVMy.png"
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 

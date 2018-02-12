@@ -1,5 +1,5 @@
 ---
-title: 01. LeNet Review
+title: LeNet Review
 category: DeepLearning
 excerpt: |
   LeNet Review

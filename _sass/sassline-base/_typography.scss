@@ -12,6 +12,8 @@ html {
 // Site-wide base styles.
 body {
   @include fontsize(zeta, all);
+  // fontsize($fontsize, $breakpoint:0)
+  // zeta를 집어넣은 html코드를 반환
 
   font-family: unquote(map-get($bodytype, font-family));
   font-style: normal;

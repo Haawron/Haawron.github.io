@@ -15,13 +15,13 @@ $breakpoints: (
 
 // Root font-sizes for each breakpoint. Set to half desired line-height of body text.
 // ! Make sure to have as many sizes as breakpoints above.
-// 얘넨 수정해도 line height(거의 줄 간격 역할)만 바뀜
+// 얘넨 수정해도 line-height(거의 줄 간격 역할)만 바뀜
 $rootsizes: (
   rootsize-0: 12,   // 24px line-height body text
   rootsize-1: 14,   // 28px line-height body text
   rootsize-2: 15,   // 30px line-height body text
-  rootsize-3: 17,   // 34px line-height body text
-  rootsize-4: 19    // 38px line-height body text
+  rootsize-3: 15,   // 34px line-height body text
+  rootsize-4: 15    // 38px line-height body text
 ) !default;
 
 // Set the optimum line-length for your text (based on typeface).

@@ -14,4 +14,4 @@ feature_image: "https://unsplash.it/1200/400?image=1048"
 못 구했다.
 
 <!-- <img src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }} logo"/> -->
-<img src="{{ site.baseurl }}assets/wing_logo.svg" alt="{{ site.title }} logo"/>
+<img src="https://haawron.github.io/assets/wing_logo.svg" alt="{{ site.title }} logo"/>

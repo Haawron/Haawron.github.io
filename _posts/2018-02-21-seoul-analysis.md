@@ -8,6 +8,7 @@ feature_text: |
   서울시 학령인구 시각화 1부
   </h1>
 feature_image: "https://i.imgur.com/kG4cv7r.jpg"
+aside: true
 ---
 
 요즘 과외 구하기가 너무 힘들다. 분당에 살았을 때는 그래도 좀 구했었는데 서울 오고 나서는 여태까지 한 명도

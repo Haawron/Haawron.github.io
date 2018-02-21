@@ -175,7 +175,7 @@ with open('Seoul_Seniors/out_seniors.svg', 'w') as op:
 
 그리고 결과
 
-{% include figure.html image={{ "/assets/Seoul/out_seniors.svg" | absolute_url }} position="center" caption="2018 서울시 구별 고령화 인구 히트맵" %}
+{% include figure.html image="https://haawron.github.io/assets/Seoul/out_seniors.svg" position="center" caption="2018 서울시 구별 고령화 인구 히트맵" %}
 <!-- ![Seoul Seniors]({{ "/assets/Seoul/out_seniors.svg" | absolute_url }}) -->
 아직 안 끝났다 ㅋㅋ 글이 길어지니 2부로 가자.
 

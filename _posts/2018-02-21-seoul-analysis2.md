@@ -102,7 +102,13 @@ kor_to_eng = {
 {% include figure.html image="https://haawron.github.io/assets/Seoul/Seoul_districts_한글추가.svg" %}
 {% include figure.html image="https://haawron.github.io/assets/Seoul/Seoul_districts_한글추가2.svg" %}
 
-필요하면 써도 된다. 대신 내 블로그 홍보 조금만...
+필요하면 써도 된다. 대신 내 블로그 홍보 조금만...  
+
+- - - - - -
+
+* * *
+
+_ _ _ _ _
 
 [서울 열린데이터 광장]:http://data.seoul.go.kr/
 [^1]:특정 시간에 특정 위치에 있는 인구, 서울시에서는 아직 공개하지 않았다. 2018년 3월 3일에 정식 공개한다고 한다.

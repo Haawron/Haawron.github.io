@@ -10,45 +10,99 @@ feature_text: |
 feature_image: "https://i.imgur.com/kG4cv7r.jpg"
 ---
 
-과외를 구하기 위해서 (ㅋㅋㅋㅋ) 서울시 학령인구 데이터를 시각화하는 중이다.
+과외를 구하기 위해서 (ㅋㅋㅋㅋ) 서울시 학령인구(고등학생) 데이터를 시각화하는 중이다.
 1부에서는 예제로 연습만 하다가 끝났다.  
 2부에서는 이제 내가 원하는 데이터로 히트맵을 만들고 이미지에 글씨도 삽입할 것이다.
 
 일단 [서울 열린데이터 광장]에서 데이터를 받아왔다. 하지만 데이터 상태가 별로 안 좋다.
 
-{% include figure.html image="https://haawron.github.io/assets/Seoul/구명이_한글.png" position="center" caption="2018 서울시 구별 고령화 인구 히트맵" %}
+{% include figure.html image="https://haawron.github.io/assets/Seoul/구명이_한글.png" position="center" caption="구명이 한글" %}
 
-기간  |  구분  |  합계  |  남자  |  여자  
-:---  |  :---  |  :-----  |  :-----  |  :----  
-2018  |  합계   |  259,270 |  133,738  |  125,532  
-2018  |  종로구  |  3,628  |  1,873  |  1,755  
-2018  |  중구   |  2,243  |  1,167  |  1,076  
-2018  |  용산구  |  5,163  |  2,691  |  2,472  
-2018  |  성동구  |  6,638  |  3,277  |  3,361  
-2018  |  광진구  |  8,683  |  4,509  |  4,174  
-2018  |  동대문구 |  7,964  |  4,065  |  3,899  
-2018  |  중랑구  |  9,679  |  5,001  |  4,678  
-2018  |  성북구  |  11,834  |  6,039  |  5,795  
-2018  |  강북구  |  7,850  |  4,108  |  3,742  
-2018  |  도봉구  |  9,362  |  4,799  |  4,563  
-2018  |  노원구  |  19,455  |  10,139  |  9,316  
-2018  |  은평구  |  13,235  |  6,748  |  6,487  
-2018  |  서대문구  |  8,042  |  4,060  |  3,982  
-2018  |  마포구  |  8,903  |  4,567  |  4,336  
-2018  |  양천구  |  16,918  |  8,801  |  8,117  
-2018  |  강서구  |  15,250  |  7,708  |  7,542  
-2018  |  구로구  |  9,821  |  5,113  |  4,708  
-2018  |  금천구  |  5,375  |  2,726  |  2,649  
-2018  |  영등포구  |  7,766  |  4,105  |  3,661  
-2018  |  동작구  |  8,969  |  4,571  |  4,398  
-2018  |  관악구  |  9,632  |  5,013  |  4,619  
-2018  |  서초구  |  13,451  |  6,833  |  6,618  
-2018  |  강남구  |  18,514  |  9,731  |  8,783  
-2018  |  송파구  |  18,528  |  9,490  |  9,038  
-2018  |  강동구  |  12,367  |  6,604  |  5,763
+> 구 이름이 한글로 되어 있다.
 
-> ### 구 이름이 한글로 되어 있다.
+참고로 밑의 그림이 베이스인데, 각 path들의 id는 당연히 영어로 되어있다. 각 데이터와 path를 매핑시켜
+주려면 구의 영어이름과 한글이름을 매핑시켜줘야 한다.
 
+{% include figure.html image="https://haawron.github.io/assets/Seoul/Seoul_districts.svg" position="center" caption="밑그림" %}
 
+{% include figure.html image="https://haawron.github.io/assets/Seoul/svg파일_id.png" position="center" caption="여기는 영어" %}
+
+그럼 이제 할 일은 당연히 노가다
+
+```python
+kor_to_eng = {
+    '강남구': 'Gangnam-gu',
+    '강동구': 'Gangdong-gu',
+    '강북구': 'Gangbuk-gu',
+    '강서구': 'Gangseo-gu',
+    '관악구': 'Gwanak-gu',
+    '광진구': 'Gwangjin-gu',
+    '구로구': 'Guro-gu',
+    '금천구': 'Geumcheon-gu',
+    '노원구': 'Nowon-gu',
+    '도봉구': 'Dobong-gu',
+    '동대문구': 'Dongdaemun-gu',
+    '동작구': 'Dongjak-gu',
+    '마포구': 'Mapo-gu',
+    '서대문구': 'Seodaemun-gu',
+    '서초구': 'Seocho-gu',
+    '성동구': 'Seongdong-gu',
+    '성북구': 'Seongbuk-gu',
+    '송파구': 'Songpa-gu',
+    '양천구': 'Yangcheon-gu',
+    '영등포구': 'Yeongdeungpo-gu_1_',
+    '용산구': 'Yongsan-gu',
+    '은평구': 'Eunpyeong-gu',
+    '종로구': 'Jongno-gu',
+    '중구': 'Jung-gu',
+    '중랑구': 'Jungnang-gu'
+}
+# 막상 하니까 금방 한다.
+```
+
+나머지는 다 똑같고
+
+{% include figure.html image="https://haawron.github.io/assets/Seoul/out_high_students1.svg" position="center" caption="글씨가 없으니 밋밋하다." %}
+
+여기까지 만들 수 있다.
+
+이제 각 구명을 손으로 넣어줘야 한다.
+다행히 Adobe Illustrator에서 svg 파일을 직접 수정할 수 있다.
+
+{% include figure.html image="https://haawron.github.io/assets/Seoul/AI로_수정.png" position="center" caption="AI로 svg파일 수정" %}
+
+일일이 수작업으로 구 이름을 달아줬다.
+뭔가 코딩으로 해결할 방법이 있을 것 같지만 더 상상하기 싫다.  
+집에서 나눔바른고딕으로 만들어 왔는데 여기 컴퓨터에서는 폰트가 없어서 다른 폰트로 대체된 것 같다.
+그럴 줄 알고 글씨도 path로 만들어 저장해놨다.
+
+{% include figure.html image="https://haawron.github.io/assets/Seoul/out_high_students3.svg" position="center" caption="드디어 완성!!!" %}
+
+텍스트를 텍스트로 저장하면 구글에서 검색도 되고 드래그도 가능하지만 그냥 path로 저장하면 당연히 안 된다.  
+
+이제 이걸로 뭘 알아낼 수 있는지 보자. 일단 내가 살고 있는 중구는 거의 흰색에 가깝다.
+어제 구청에서 한 빅데이터 강의에서 생활인구[^1] 데이터를 보여줬는데 주간 생활인구 밀집도는 중구가 서울시 중 1위지만
+야간 밀집도는 꼴찌였다. 그렇다. 중구에는 주거지가 적다. 과외가 안 구해지는 이유가 있었다. 주변을 살펴보면
+성북구에 애들이 좀 많은 것 같다. 노려봐도 될 것 같다.  
+그리고 강남쪽에 양천구, 강남구, 서초구에도 애들이 좀 있는데, 양천구는 너무 멀고
+강남까지는 버스로 30~40분이니까 해볼만 할 것 같다.  
+
+이젠 경쟁자가 문젠데, 3월에 개강하면 대학생들이 쭈욱 빠진다. 공대생들 시험이 시작되는 3월 말 쯤이 골든타임일
+것으로 예상된다. 학교 시험이 없고 군대 걱정 없는 것을 적극적으로 어핋해야겠다.
+
+이번 연구로 알아낸게 있다.
+1. 그림을 파이썬(bs4)으로 그릴 수 있다.
+2. 이거 하는 동안 수학 1도 안 썼다.
+
+다음 연구는 수학도 써보고 노가다 그림을 파이썬으로 쉽게 그려보고 싶다.  
+신경망 그림이 아마 엄청 오래걸릴 것이다. 하지만 코딩으로 가능할 것 같다.
+
+아 그리고
+
+{% include figure.html image="https://haawron.github.io/assets/Seoul/Seoul_districts_한글추가.svg" %}
+{% include figure.html image="https://haawron.github.io/assets/Seoul/Seoul_districts_한글추가2.svg" %}
+
+필요하면 써도 된다. 대신 내 블로그 홍보 조금만...
 
 [서울 열린데이터 광장]:http://data.seoul.go.kr/
+[^1]:특정 시간에 특정 위치에 있는 인구, 서울시에서는 아직 공개하지 않았다. 2018년 3월 3일에 정식 공개한다고 한다.

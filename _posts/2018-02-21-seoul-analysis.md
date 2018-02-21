@@ -13,5 +13,4 @@ feature_image: "https://unsplash.it/1200/400?image=1048"
 요즘 과외 구하기가 너무 힘들다. 분당에 살았을 때는 그래도 좀 구했었는데 서울 오고 나서는 여태까지 한 명도
 못 구했다.
 
-<!-- <img src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }} logo"/> -->
-<img src="https://haawron.github.io/assets/wing_logo.svg" alt="{{ site.title }} logo"/>
+{% include figure.html image="https://haawron.github.io/assets/wing_logo.svg" caption="logo" %}

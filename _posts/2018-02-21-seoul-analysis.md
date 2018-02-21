@@ -153,7 +153,7 @@ for p in paths:  # 각 path태그마다 (p는 tag 객체임)
     if p['id']:  # 태그의 id가 있으면
         count = senior_count[p['id']]  # 해당 구의 숫자를 받아와서
 
-        color_class = levels - 1 if count == 1.0 else int(count // (1 / levels))
+        color_class = levels - 1 if count == 1.0 else int(count * levels)
         color = colors[color_class]  # 색을 받아옴
         p['fill'] = color  # 색을 넣음 (path 태그에 fill 태그를 추가함; 변수 paths를 수정하면 변수 paths가 수정됨)
 

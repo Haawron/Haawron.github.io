@@ -14,6 +14,7 @@ feature_image: "https://i.imgur.com/kG4cv7r.jpg"
 못 구했다. 이게 내가 과외를 구하는건지 구걸하고 다니는건지 의심스러울 정도였다. 너무 안 구해져서
 답답하던 와중에 서울시에서 데이터를 공개했다는 걸 알게 됐다. 그것도 아주 옛날부터...  
 
+<br>
 <h3> <center><a href="http://data.seoul.go.kr/">
 서울 열린데이터 광장</a>
 </center> </h3><br>
@@ -26,7 +27,7 @@ feature_image: "https://i.imgur.com/kG4cv7r.jpg"
 색깔만 바꿔서 나도 따라 만들어봤다.
 
 예제에서는 일일이 색을 입력해줬는데 나는 그러기 귀찮아서 gradient를 구해주는 코드를 추가했다.
-처음에 rgb를 10진법으로 바꿔서 `np.linspace` 해주면서 삽질 좀 했다.
+처음에 RGB를 10진법으로 바꿔서 `np.linspace` 해주면서 삽질 좀 했다.
 각 채널을 따로따로 gradient 시켜줘야 한다.
 
 ```python

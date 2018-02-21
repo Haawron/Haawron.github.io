@@ -12,7 +12,7 @@ $modular-scale: (
     epsilon: 17.9,
     zeta:    16.0,  // 사실상 font-size, 글씨 크기 여기로 오셈, 여기 바꾸면 됨.
     eta:     14.3,
-    theta:   12.8,
+    theta:   12.8,  // code block 글씨 크기임. @@@@@font size
     iota:    11.5
   ),
   // Major Third http://www.modularscale.com/?17,30&px&1.25&web&text
@@ -48,7 +48,7 @@ $modular-scale: (
     epsilon: 22.5,
     zeta:    18.0,
     eta:     16.9,
-    theta:   15.0,
+    theta:   14.4,  // 15.0,
     iota:    12.7
   ),
   // Aug. Fourth http://www.modularscale.com/?22,50&px&1.414&web&text
@@ -60,7 +60,7 @@ $modular-scale: (
     epsilon: 25.0,
     zeta:    18.0,
     eta:     17.6,
-    theta:   15.6,
+    theta:   14.4,  // 15.6,
     iota:    12.5
   )
 );

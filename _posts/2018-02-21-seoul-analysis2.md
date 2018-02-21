@@ -20,7 +20,7 @@ feature_image: "https://i.imgur.com/kG4cv7r.jpg"
 
 > 구 이름이 한글로 되어 있다.
 
-참고로 밑의 그림이 베이스인데, 각 path들의 id는 당연히 영어로 되어있다. 각 데이터와 path를 매핑시켜
+참고로 밑의 그림이 베이스인데, 각 path들의 id는 불행하게도 영어로 되어있다. 각 데이터와 path를 매핑시켜
 주려면 구의 영어이름과 한글이름을 매핑시켜줘야 한다.
 
 {% include figure.html image="https://haawron.github.io/assets/Seoul/Seoul_districts.svg" position="center" caption="밑그림" %}

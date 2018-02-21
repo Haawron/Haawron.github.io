@@ -71,7 +71,7 @@ with open('Seoul_districts.svg', 'r') as svg:
 대신에 보기 싫은 `if`문을 없앴다.
 
 ```python
-color_class = levels - 1 if count == 1.0 else int(count // (1 / levels))
+color_class = levels - 1 if count == 1.0 else int(count * levels)
 # 음 만족스러워
 ```
 

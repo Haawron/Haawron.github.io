@@ -5,11 +5,11 @@
 $modular-scale: (
   // Major Third http://www.modularscale.com/?16,28&px&1.25&web&text
   scale-0: (
-    alpha:   28.0,
-    beta:    25.0,
-    gamma:   22.4,
-    delta:   20.0,
-    epsilon: 17.9,
+    alpha:   28.0,  // h1
+    beta:    25.0,  // h2
+    gamma:   22.4,  // h3
+    delta:   20.0,  // h4
+    epsilon: 17.9,  // h5
     zeta:    16.0,  // 사실상 font-size, 글씨 크기 여기로 오셈, 여기 바꾸면 됨.
     eta:     14.3,
     theta:   12.8,  // code block 글씨 크기임. @@@@@font size

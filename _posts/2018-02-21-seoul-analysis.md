@@ -14,7 +14,7 @@ feature_image: "https://i.imgur.com/kG4cv7r.jpg"
 못 구했다. 이게 내가 과외를 구하는건지 구걸하고 다니는건지 의심스러울 정도였다. 너무 안 구해져서
 답답하던 와중에 서울시에서 데이터를 공개했다는 걸 알게 됐다. 그것도 아주 옛날부터...
 
-### <center>[서울 열린데이터 광장]</center>  <br>
+<h2> <center>[서울 열린데이터 광장]</center> </h2>  <br>
 
 뒤져보다보니 추계인구이긴 하지만 구별 고등학생 인구가 나와있다. 하지만 시각화가 되어있지 않아 매우 불편쓰  
 시각화하는 방법을 찾아보기로 했다. 역시 먼저 해본 사람이 있었다. [여기]에 매우 잘 나와있었다.  
@@ -94,7 +94,7 @@ with open('Seoul_Seniors/out_seniors.svg', 'w') as op:
 ```
 
 전체 코드다.  
-todo : 이거 접었다 폈다 하는 거 만들어보자.
+todo : 이거 접었다 폈다 하는 거 만들어보자, 코드 글씨 너무 큼.
 
 ```python
 import csv
@@ -161,7 +161,8 @@ for i in range(levels):
     size = 70
     xx = yy = 50
     xx = '{}'.format(xx + size * i)
-    new_rect = soup.new_tag('rect', x=xx, y=str(yy), width=str(size), height=str(size), stroke="white", fill=colors[i])
+    new_rect = soup.new_tag('rect', x=xx, y=str(yy), width=str(size), height=str(size),
+                            stroke="white", fill=colors[i])
     svg_tag.append(new_rect)
 
 with open('Seoul_Seniors/out_seniors.svg', 'w') as op:
@@ -171,7 +172,7 @@ with open('Seoul_Seniors/out_seniors.svg', 'w') as op:
 
 그리고 결과
 
-{% include figure.html image="https://haawron.github.io/Seoul/out_seniors.svg" position="center" caption="2018 서울시 구별 고령화 인구 히트맵" %}
+{% include figure.html image="https://haawron.github.io/assets/Seoul/out_seniors.svg" position="center" caption="2018 서울시 구별 고령화 인구 히트맵" %}
 
 아직 안 끝났다 ㅋㅋ 글이 길어지니 2부로 가자.
 

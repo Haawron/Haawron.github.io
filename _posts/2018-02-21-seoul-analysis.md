@@ -1,11 +1,11 @@
 ---
-title: 분석 서울시 학령인구 시각화
+title: 서울시 학령인구 시각화 1부
 category: MISC
 excerpt: |
-  [분석] 서울시 학령인구 시각화
+  서울시 학령인구 시각화 1부
 feature_text: |
   <h1 style="color:white;font-weight:bold;font-style:normal;font-size:66px">
-  서울시 학령인구 시각화
+  서울시 학령인구 시각화 1부
   </h1>
 feature_image: "https://i.imgur.com/kG4cv7r.jpg"
 ---
@@ -97,7 +97,7 @@ with open('Seoul_Seniors/out_seniors.svg', 'w') as op:
 ```
 
 전체 코드다.  
-todo : 이거 접었다 폈다 하는 거 만들어보자, 코드 글씨 너무 큼.
+todo : 이거 접었다 폈다 하는 거 만들어보자, 코드 줄 간격 너무 큼, 코드 색깔 안 이쁨, 댓글 매니저 추가.
 
 ```python
 import csv

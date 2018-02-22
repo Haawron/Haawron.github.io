@@ -20,11 +20,10 @@ feature_image: "https://i.imgur.com/kG4cv7r.jpg"
 </center> </h3><br>
 
 뒤져보다보니 추계인구이긴 하지만 구별 고등학생 인구가 나와있었다. 하지만 시각화가 되어있지 않아 매우 불편쓰  
-그래서 시각화하는 방법을 찾아보기로 했다. 다른 데이터긴 하지만 역시 먼저 해본 사람이 있었다.
-[여기]에 매우 잘 나와있다. 근데 색이 좀 맘에 들지 않는다.
-이전에 히트맵 이미지에서는 수치에 따라 색조가 변하면 알아보기 힘들다는 글을 본 적이 있다.
-확실히 수치에 따라 빨주노초파남보로 색이 변하면 수치의 강약이 한 눈에 안 들어온다.
-채도 변화로 표현하면 가장 자연스럽다고 한다. 링크의 예제에서는 **구별 고령화 인구 데이터** 를 사용했다.
+그래서 시각화하는 방법을 찾아보기로 했다. 역시 먼저 해본 사람이 있었다. [여기]에 매우 잘 나와있었다.
+근데 색이 좀 맘에 들지 않았다. 이전에 히트맵 이미지에서는 수치에 따라 색조가 변하면 알아보기 힘들다는
+글을 본 적이 있다. 확실히 수치에 따라 빨주노초파남보로 색이 변하면 수치의 강약이 한 눈에 안 들어온다.
+채도 변화로 표현하면 가장 자연스럽다고 한다. 링크의 예제에서는 구별 고령화 인구 데이터를 사용했다.
 색깔만 바꿔서 나도 따라 만들어봤다.
 
 예제에서는 일일이 색을 입력해줬는데 나는 그러기 귀찮아서 gradient를 구해주는 코드를 추가했다.
@@ -179,6 +178,11 @@ with open('Seoul_Seniors/out_seniors.svg', 'w') as op:
 {% include figure.html image="https://haawron.github.io/assets/Seoul/out_seniors.svg" position="center" caption="2018 서울시 구별 고령화 인구 히트맵" %}
 <!-- ![Seoul Seniors]({{ "/assets/Seoul/out_seniors.svg" | absolute_url }}) -->
 아직 안 끝났다 ㅋㅋ 글이 길어지니 2부로 가자.
+
+<br>
+<h3> <center><a href="https://haawron.github.io/misc/2018/02/21/seoul-analysis2/">
+서울시 학령인구 시각화 2부</a>
+</center> </h3><br>
 
 [서울 열린데이터 광장]:http://data.seoul.go.kr/
 [여기]:http://hellogohn.com/post_one48

@@ -12,7 +12,7 @@ excerpt: "구냥 공부한 거 올리는 페이지 ㅎㅎ"
 실험용 페이지임  
 나중에 워드프레스로 갈아탈거야  
 
-<div class="hov_container">
+<div class="container">
   <img src="https://unsplash.it/300/400?image=123" alt="Avatar" class="image">
   <div class="overlay">
     <div class="text">Hello World</div>

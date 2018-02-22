@@ -28,8 +28,7 @@ excerpt: "구냥 공부한 거 올리는 페이지 ㅎㅎ"
 <!-- {% include site-form.html %} -->
 
 <!-- 버튼 디자인, 아이콘은 옵션 -->
-<!-- {% include button.html text="A button with icon" link="https://twitter.com/daviddarnes" icon="twitter" %} -->
+<!-- {% include button.html text="A button with icon" link="https://twitter.com/daviddarnes" icon="twitter" %}-->
 
-<!-- 유튜브 넣기 -->
-{% include video.html id="vihDNdLPmOA" %}
-zrkcGL5H3MU
+<!-- 유튜브 넣기, id는 공유 링크임 -->
+<!-- {% include video.html id="vihDNdLPmOA" %} -->

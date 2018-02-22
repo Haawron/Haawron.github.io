@@ -15,5 +15,11 @@ excerpt: "구냥 공부한 거 올리는 페이지 ㅎㅎ"
 <!-- {% include figure.html image="https://unsplash.it/300/400?image=123" position="center" caption="Center aligned image" %} -->
 <!-- 지도 넣기 id는 구글 맵 embed 가서 받아와야 하는 듯 -->
 {% include map.html id="AIzaSyDbAsYp5OQeQgl_wi6Bk0Cs4Xni3FGTuv8" %}
+
+<div class="map">
+  <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDbAsYp5OQeQgl_wi6Bk0Cs4Xni3FGTuv8&q=Eiffel+Tower,Paris+France">
+  </iframe>
+</div>
+
 {% include site-form.html %}
 {% include button.html text="A button with icon" link="https://twitter.com/daviddarnes" icon="twitter" %}
